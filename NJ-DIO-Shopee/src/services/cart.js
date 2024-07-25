@@ -17,17 +17,17 @@ export async function calculateTotal(myCart){
   return myCart.reduce((total, item) => total + item.subtotal(), 0);
 }
 // Função para remover o item mais caro do carrinho!
-export async function removeItemHigherValue(myCart){
-  let mostValue = await myCart.reduce((maxItem, currentItem) => {
+export async function removeHigherValue(myCart){
+  let mostValue = myCart.reduce((maxItem, currentItem) => {
     if(currentItem.price > maxItem.price){
       return currentItem;
     }else{
       return maxItem;
     }
   })
-  console.log('xxx', mostValue)
   // Filtra o carrinho para remover o item com o maior valor
   myCart = myCart.filter(item => item !== mostValue);
+  return myCart;
 }
 // Função para remover o item pelo ID!
 export async function removeItemId(myCart, selectID){
