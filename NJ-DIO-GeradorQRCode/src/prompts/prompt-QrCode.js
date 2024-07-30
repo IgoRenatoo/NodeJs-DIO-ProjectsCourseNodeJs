@@ -1,7 +1,10 @@
 export const promptQrCode = [
   {
     name: "link",
-    description: 'Digite o link do site para gerar QRCode:  ',
+    description: 'Digite o link do produto para gerar QRCode:  ',
+    pattern: /^www\.[a-zA-Z0-9-]+\.(com\.br)$/,
+    message: 'O site deve iniciar com "WWW" e conter ".com.br" no final!',
+    required: false
   },
   {
     name: 'type',
