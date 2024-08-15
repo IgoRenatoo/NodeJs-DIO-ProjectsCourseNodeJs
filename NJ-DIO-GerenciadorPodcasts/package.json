@@ -1,0 +1,21 @@
+{
+  "name": "nj-dio-gerenciadorpodcasts",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "tsx ./src/index.ts",
+    "x": "tsx ./src/controllers/pull-episodes-controller.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "tsx": "^4.17.0",
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.1.0"
+  }
+}
