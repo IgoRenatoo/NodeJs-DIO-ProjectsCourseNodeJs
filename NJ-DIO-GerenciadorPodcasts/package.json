@@ -4,7 +4,7 @@
   "main": "index.ts",
   "scripts": {
     "dev": "tsx ./src/index.ts",
-    "x": "tsx ./src/controllers/pull-episodes-controller.ts"
+    "x": "tsx src/controllers/episodes-controller.ts"
   },
   "keywords": [],
   "author": "",
