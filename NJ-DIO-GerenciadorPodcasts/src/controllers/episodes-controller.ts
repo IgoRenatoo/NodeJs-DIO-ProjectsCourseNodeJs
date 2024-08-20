@@ -1,6 +1,6 @@
 import path from "path";
 import fs from "fs";
-import { Episode } from "../models/episodes-models"
+import { Episode } from "../models/episodes-model"
 
 const pathData = path.join(__dirname, "../database/list-episodes.md")
 
@@ -8,9 +8,8 @@ const pathData = path.join(__dirname, "../database/list-episodes.md")
 export const pullEpisodesList = async (): Promise<Episode[]> => await JSON.parse(fs.readFileSync(pathData, "utf-8")) as Episode[];
 
 // Listar os episódio do maior número de views para o menor
-export const filterEpisodesByCorporation = async (): Promise<Episode[]> => {
+export const filterEpisodesByCorporation = async (corp: string | undefined): Promise<Episode[]> => {
   const episodes: Episode[] = await pullEpisodesList();
-  const corp = "flow";
   return episodes.filter((episode) => episode.corporation == corp);
 }
 // Listar os episódio por corporação
