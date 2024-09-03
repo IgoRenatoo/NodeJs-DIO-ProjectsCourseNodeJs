@@ -1,5 +1,5 @@
 import { fastify } from '../index';
-import { f1Teams } from './../database/teams-database';
+import { f1Teams } from '../database/teams-database';
 import { f1Drivers } from '../database/drivers-database';
 import { bestDriver } from '../controllers/best-driver-controller';
 import { mostTitle } from '../controllers/most-titles-controller';
