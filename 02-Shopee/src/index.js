@@ -1,11 +1,11 @@
 // Array contendo todos os itens no carrinho
 let myCart = [];
 // Importando função do carrinho de criar produto, calcular, deletar e remover.
-import * as cartService from './services/cart.js';
+import * as cartService from './services/cart-service.js';
 
 console.log("Welcome to Shopee Store! \n\n")
 
-// Adição de itens no carrinho!
+// Adição de itens no carrinho ( nome, preço e quantidade)!
 await cartService.createProduct(myCart, 'Sabão', 13, 4);
 await cartService.createProduct(myCart, 'Saco de lixo', 5, 3);
 await cartService.createProduct(myCart, 'Coca-Cola', 16.25, 6);

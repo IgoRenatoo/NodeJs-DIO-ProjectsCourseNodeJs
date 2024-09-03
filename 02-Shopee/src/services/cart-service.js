@@ -1,3 +1,4 @@
+// Contador para o DB!
 let id = 0;
 // Função para criar o produto e adiciona no carrinho!
 export function createProduct(myCart, name, price, quantity) {
