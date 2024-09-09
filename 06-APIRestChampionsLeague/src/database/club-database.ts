@@ -1,4 +1,4 @@
-export const club = [
+export const club: Club[] = [
   {
     nome: "Flamengo",
     jogadores: [
