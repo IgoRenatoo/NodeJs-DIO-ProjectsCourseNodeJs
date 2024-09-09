@@ -1,12 +1,12 @@
 import Router from 'express';
-import { getPlayerById } from '../services/player-services';
+import { getPlayerById, getAllPlayer } from '../services/player-services';
 
 const router = Router();
 
 export function server(){
   /* GET - Pegar */
   router.get('/player', getPlayerById)
-  router.get('/player/list', )
+  router.get('/player/list', getAllPlayer)
   router.get('/clubs/list', )
 
   /* POST - Adicionar */
