@@ -1,4 +1,5 @@
 import Router from 'express';
+import { getAllClub } from '../services/get-club-services';
 import { getHome, getPlayerById, getAllPlayer } from '../services/get-player-services';
 
 const router = Router();
@@ -8,7 +9,7 @@ export function server(){
   router.get('/', getHome)
   router.get('/player', getPlayerById)
   router.get('/player/list', getAllPlayer)
-  router.get('/clubs/list', )
+  router.get('/clubs/list', getAllClub)
 
   /* POST - Adicionar */
   router.post('/player', )
