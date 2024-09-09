@@ -43,7 +43,8 @@ export const club = [
       { id: 29, nome: "Nestor", camisa: 25, time: "São Paulo", posicao: "Meio de campo", habilidade: { ataque: 70, defesa: 65, drible: 75, passe: 80, resistencia: 82, forca: 76 } },
       { id: 30, nome: "Liziero", camisa: 13, time: "São Paulo", posicao: "Meio de campo", habilidade: { ataque: 68, defesa: 70, drible: 78, passe: 80, resistencia: 80, forca: 75 } },
       { id: 31, nome: "Luciano", camisa: 11, time: "São Paulo", posicao: "Ataque", habilidade: { ataque: 85, defesa: 30, drible: 82, passe: 72, resistencia: 78, forca: 75 } },
-      { id: 32, nome: "Calleri", camisa: 9, time: "São Paulo", posicao: "Ataque", habilidade: { ataque: 90, defesa: 35, drible: 75, passe: 68, resistencia: 82, forca: 80 } }
+      { id: 32, nome: "Calleri", camisa: 9, time: "São Paulo", posicao: "Ataque", habilidade: { ataque: 90, defesa: 35, drible: 75, passe: 68, resistencia: 82, forca: 80 } },
+      { id: 33, nome: "Eder", camisa: 20, time: "São Paulo", posicao: "Ataque", habilidade: { ataque: 85, defesa: 30, drible: 80, passe: 70, resistencia: 75, forca: 78 } }
     ]
   },
   {
@@ -71,11 +72,12 @@ export const club = [
       { id: 47, nome: "Samuel Xavier", camisa: 2, time: "Fluminense", posicao: "Defesa", habilidade: { ataque: 60, defesa: 82, drible: 65, passe: 75, resistencia: 82, forca: 75 } },
       { id: 48, nome: "Calegari", camisa: 31, time: "Fluminense", posicao: "Defesa", habilidade: { ataque: 55, defesa: 80, drible: 68, passe: 70, resistencia: 80, forca: 75 } },
       { id: 49, nome: "André", camisa: 7, time: "Fluminense", posicao: "Meio de campo", habilidade: { ataque: 75, defesa: 70, drible: 80, passe: 85, resistencia: 85, forca: 80 } },
-      { id: 50, nome: "Martinelli", camisa: 8, time: "Fluminense", posicao: "Meio de campo", habilidade: { ataque: 70, defesa: 65, drible: 75, passe: 80, resistencia: 82, forca: 75 } },
-      { id: 51, nome: "Ganso", camisa: 10, time: "Fluminense", posicao: "Meio de campo", habilidade: { ataque: 80, defesa: 55, drible: 85, passe: 90, resistencia: 75, forca: 70 } },
-      { id: 52, nome: "Arias", camisa: 21, time: "Fluminense", posicao: "Meio de campo", habilidade: { ataque: 78, defesa: 60, drible: 82, passe: 85, resistencia: 80, forca: 78 } },
-      { id: 53, nome: "Germán Cano", camisa: 14, time: "Fluminense", posicao: "Ataque", habilidade: { ataque: 90, defesa: 30, drible: 85, passe: 75, resistencia: 80, forca: 85 } },
-      { id: 54, nome: "Jhon Arias", camisa: 11, time: "Fluminense", posicao: "Ataque", habilidade: { ataque: 88, defesa: 30, drible: 88, passe: 75, resistencia: 85, forca: 78 } }
+      { id: 50, nome: "Martinelli", camisa: 8, time: "Fluminense", posicao: "Meio de campo", habilidade: { ataque: 70, defesa: 65, drible: 78, passe: 80, resistencia: 82, forca: 76 } },
+      { id: 51, nome: "Ganso", camisa: 10, time: "Fluminense", posicao: "Meio de campo", habilidade: { ataque: 68, defesa: 60, drible: 80, passe: 90, resistencia: 80, forca: 75 } },
+      { id: 52, nome: "Iago", camisa: 26, time: "Fluminense", posicao: "Meio de campo", habilidade: { ataque: 72, defesa: 65, drible: 75, passe: 80, resistencia: 80, forca: 78 } },
+      { id: 53, nome: "Fred", camisa: 9, time: "Fluminense", posicao: "Ataque", habilidade: { ataque: 88, defesa: 30, drible: 70, passe: 68, resistencia: 80, forca: 85 } },
+      { id: 54, nome: "Willian", camisa: 11, time: "Fluminense", posicao: "Ataque", habilidade: { ataque: 85, defesa: 35, drible: 82, passe: 75, resistencia: 78, forca: 80 } },
+      { id: 55, nome: "German Cano", camisa: 19, time: "Fluminense", posicao: "Ataque", habilidade: { ataque: 90, defesa: 30, drible: 75, passe: 70, resistencia: 80, forca: 82 } }
     ]
-  }
-];
+  } 
+]
