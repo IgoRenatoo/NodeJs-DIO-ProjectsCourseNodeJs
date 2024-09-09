@@ -1,10 +1,11 @@
 import Router from 'express';
-import { getPlayerById, getAllPlayer } from '../services/player-services';
+import { getHome, getPlayerById, getAllPlayer } from '../services/get-player-services';
 
 const router = Router();
 
 export function server(){
   /* GET - Pegar */
+  router.get('/', getHome)
   router.get('/player', getPlayerById)
   router.get('/player/list', getAllPlayer)
   router.get('/clubs/list', )
