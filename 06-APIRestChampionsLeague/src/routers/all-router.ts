@@ -1,6 +1,17 @@
 import Router from 'express';
-import { getAllClub } from '../services/get-club-services';
-import { getHome, getPlayerById, getAllPlayer } from '../services/get-player-services';
+
+// GET
+import { getAllClub } from '../services/get-club-service';
+import { getHome, getPlayerById, getAllPlayer } from '../services/get-player-service';
+
+// POST
+import { addPlayer } from '../services/post-player-service';
+
+// PATCH
+import { changePlayerById } from '../services/patch-player-service';
+import { deletePlayerById } from '../services/delete-player-service';
+
+// DELETE
 
 const router = Router();
 
@@ -12,13 +23,13 @@ export function server(){
   router.get('/clubs/list', getAllClub)
 
   /* POST - Adicionar */
-  router.post('/player', )
+  router.post('/player', addPlayer)
   
   /* PATCH - Alterar */
-  router.patch('/player', )
+  router.patch('/player', changePlayerById)
   
   /* DELETE - Deletar */
-  router.delete('/player', )
+  router.delete('/player', deletePlayerById)
 
   return router
 }
