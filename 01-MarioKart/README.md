@@ -1,60 +1,84 @@
-# 🚗 Desafio de projeto desenvoldimento NodeJs: Mario KartJS
+# 🚗 Desafio de Projeto Desenvolvimento NodeJs: Mario KartJS
+
 <p align="center">
 <img src="./src/docs/header.gif" alt="Mario Kart" width="200">
 </p>
 
 ## 💻 Descrição do Projeto
 
-- Mario Kart é uma série de jogos de corrida desenvolvida e publicada pela Nintendo. Nosso desafio será criar uma lógica de um jogo de vídeo game para simular corridas de Mario Kart, levando em consideração as regras e mecânicas abaixo
+Este projeto visa criar uma lógica de um jogo de vídeo game para simular corridas de Mario Kart, levando em consideração as regras e mecânicas da série de jogos desenvolvida e publicada pela Nintendo. O objetivo é implementar uma competição divertida entre personagens icônicos, utilizando JavaScript e conceitos de programação.
 
-## 📚 Tecnologias Utilizadas
+> **Colaboração:** Not found  
+> **Status:** <span> Concluído </span> ✔️
 
-- JavaScript
-- Lógica de Programação
-- Conhecimento em Estruturas de Dados
+## 📜 Índice
+
+- [Descrição](#-descrição-do-projeto)
+- [Conceitos Aprendidos](#-conceitos-aprendidos)
+- [Tecnologias Utilizadas](#--tecnologias-utilizadas)
+- [Instalação](#-instalação)
+- [Uso](#-uso)
+- [Funcionalidades](#-funcionalidades)
+- [Personagens](#-personagens)
+- [Regras e Mecânicas](#-regras-e-mecânicas)
+- [Pendências](#-pendências)
+- [Contribuição](#-contribuição)
+- [Conclusão](#-conclusão)
+- [Informações Adicionais](#-informações-adicionais)
+- [Licença](#-licença)
+
+## ✅ Conceitos Aprendidos 
+
+- Implementação de lógica de jogos utilizando JavaScript.
+- Aplicação de estruturas de dados em uma simulação de corrida.
+- Manipulação de dados para simular pontuação e eventos aleatórios.
+- Uso de funções para gerenciar interações entre personagens e pistas.
+
+## 🛠 Tecnologias Utilizadas
+
+![image](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![image](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+
+## ⚙ Instalação
+
+Para começar a usar este projeto, siga as etapas abaixo:
+
+1. Faça um fork do repositório:
+   <pre>git fork https://github.com/IgoRenatoo/NodeJs-DIO-ProjectsCourseNodeJs.git</pre>
+
+2. Clone o seu fork para sua máquina:
+   <pre>git clone https://github.com/IgoRenatoo/NodeJs-DIO-ProjectsCourseNodeJs.git</pre>
+
+3. Acesse o diretório do projeto:
+   <pre>cd NodeJs-DIO-ProjectsCourseNodeJs</pre>
+
+4. Acesse a pasta do projeto:
+   <pre>cd 01-MarioKart</pre>
+
+5. Instale as dependências:
+   <pre>npm install</pre>
+
+## 🚀 Uso 
+
+Para usar o projeto, você pode executar o seguinte comando no terminal de sua preferência:
+1. Execute o comando `node src/index.js` para iniciar o jogo.
+2. Siga as instruções no console para selecionar os personagens e começar a corrida.
 
 ## 🧩 Funcionalidades
 
 1. **`RollDice()`**
-   - Simula o lançamento de um dado, retornando um número aleatório entre 1 e 6. Este valor é usado para adicionar um fator de sorte nas competições.
+   - Simula o lançamento de um dado, retornando um número aleatório entre 1 e 6.
 
 2. **`getTrack()`**
-   - Define o tipo de pista para cada volta da corrida. Existem quatro tipos possíveis:
-     - **Velocidade**
-     - **Manobra**
-     - **Duelo (Poder)**
-     - **Sorte**
+   - Define o tipo de pista para cada volta da corrida, podendo ser: Velocidade, Manobra, Duelo (Poder) ou Sorte.
 
 3. **`getCharacter()`**
-   - Seleciona dois personagens para competir de forma manual pelo `Array` player.
+   - Seleciona dois personagens para competir de forma manual.
 
 4. **`start()`**
-   - Inicia a corrida, composta por cinco voltas. Em cada volta:
-     - Um tipo de pista é definido.
-     - Os personagens competem utilizando o atributo correspondente ao tipo de pista.
-     - O personagem com o maior valor de atributo (incluindo o resultado do dado) ganha a volta e recebe um ponto.
+   - Inicia a corrida, composta por cinco voltas, onde os personagens competem de acordo com as regras definidas.
 
-## 🛠️ Pré-requisitos de Habilidades
-
-- Conhecimento básico de JavaScript e suas funcionalidades assíncronas.
-- Compreensão de lógica de programação e estruturas de dados.
-- Experiência com operações básicas de manipulação de arrays e objetos.
-
-## 🎯 Habilidade Adquirida
-
-- Implementação de uma lógica de jogo interativa utilizando JavaScript.
-- Aplicação de regras de programação e estruturas de dados para simular um jogo de corrida.
-- Desenvolvimento de funcionalidades assíncronas e manipulação de dados para um sistema de pontuação e simulação de eventos.
-
-## 📂 Estrutura do Projeto
-
-- **`/src`**
-  - **`/docs`**
-    - Contém todos os GIFs utilizados no projeto.
-  - `index.js`
-    - Arquivo principal que executa a lógica do jogo e exibe os resultados no console.
-
-## Personagens
+## 🤖 Personagens
 <table style="border-collapse: collapse; width: 800px; margin: 0 auto;">
     <tr>
         <td style="border: 1px solid black; text-align: center;">
@@ -122,7 +146,7 @@
 - **Poder**: Representa a força ou habilidades especiais do personagem.
 - **Sorte**: Reflete a chance de eventos aleatórios favoráveis ao personagem.
 
-### 🕹️ Regras e Mecânicas
+## 🕹️ Regras e Mecânicas
 
 **Jogadores:**
 
@@ -137,10 +161,35 @@
   - **Confronto:** O jogador deve jogar um dado de 6 lados e somar o atributo `Poder`. Quem perder, perde um ponto.
 - Nenhum jogador pode ter pontuação negativa (valores abaixo de 0).
 
-**Condição de Vitória:**
+> Condição de Vitória: Ao final, vence quem acumulou mais pontos.
 
-- Ao final, vence quem acumulou mais pontos.
+## ⏳ Pendências
+
+Atualmente o código está completo.
+
+## 🤝 Contribuição
+
+Contribuições são bem-vindas! Se você deseja contribuir com este projeto, siga as etapas abaixo:
+
+1. Faça um fork deste repositório.
+2. Clone o seu fork para sua máquina ( `git clone https://github.com/user_name/nome_do_repositório` ).
+3. Crie uma branch para sua feature ou correção de bug ( `git checkout -b <nome-da-nova-ramificacao>` ).
+4. Commit suas alterações ( `git commit -m 'Mensagem desejada'` ).
+5. Push para a branch ( `git push origin <nome-da-branch-criada>` ).
+6. Abra um Pull Request.
+7. Aguarde à análise.
+
+## 💡 Informações adicionais
+
+- Este projeto é uma ótima maneira de entender a lógica de jogos e desenvolver habilidades em JavaScript.
+- Sinta-se à vontade para adicionar mais personagens e tipos de pistas!
+
+## 🔓 Licença
+
+Este projeto está licenciado sob a Licença MIT.
 
 ## 🏁 Conclusão
 
-Este projeto demonstrou a capacidade de criar uma simulação de corrida inspirada no Mario Kart utilizando JavaScript. A implementação das funcionalidades permite experimentar a lógica de jogos e desenvolver habilidades práticas em programação, manipulação de dados e criação de sistemas interativos. A estrutura e as regras estabelecidas proporcionam uma base sólida para futuras expansões e aprimoramentos no jogo.
+O projeto Mario KartJS é uma excelente demonstração da implementação de um jogo simples utilizando JavaScript. Os conceitos de lógica de programação e manipulação de dados foram aplicados para criar uma experiência interativa de corrida.
+
+😄 "Por que os programadores preferem a natureza? Porque ela tem mais árvores e menos bugs!" 🌳

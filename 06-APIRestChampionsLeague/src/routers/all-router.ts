@@ -9,9 +9,9 @@ import { addPlayer } from '../services/post-player-service';
 
 // PATCH
 import { changePlayerById } from '../services/patch-player-service';
-import { deletePlayerById } from '../services/delete-player-service';
 
 // DELETE
+import { deletePlayerById } from '../services/delete-player-service';
 
 const router = Router();
 

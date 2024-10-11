@@ -2,10 +2,10 @@ import {Request, Response} from 'express';
 import { club } from '../database/club-database';
 import { playerById, allPlayer } from '../controllers/get-player-controller';
 
-// GET - Retorna o DB completo.
+// GET - Metodo para retorna o DB completo, return controller.
 export const getHome = (req: Request, res: Response) => res.status(200).send(club)
 
-// GET - Solicita um jogador por ID e envia a req ao controller.
+// GET - Metodo para solicita um jogador por ID e enviar a req ao controller.
 export const getPlayerById = ( req: Request, res: Response) => {
   const id: number = Number(req.query.id as string);
   
@@ -14,7 +14,7 @@ export const getPlayerById = ( req: Request, res: Response) => {
     : res.status(400).send('Digite um número válido!');
   };
 
-// GET - Pega apenas todos os jogadores.
+// GET - Metodo para pegar todos os jogadores, return controller.
   export const getAllPlayer = (req: Request, res: Response) => {
     res.status(200).send(allPlayer())
   }

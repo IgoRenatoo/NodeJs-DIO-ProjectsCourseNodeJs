@@ -4,6 +4,6 @@
     "module": "CommonJS", // Facilitar a compatibilidade da aplicações com navegadores mais antigos.
     "outDir": "./dist", // Especifica aonda ficará os arquivos após serem compilados.
     "strict": true, // Verifica todas as variáveis e seus tipos.
-    "esModuleInterop": true, // Suporta importação em type module para compilar em CommonJS.
+    "esModuleInterop": true, // Suporta importação em type module para compilar em Common JS.
   }
 }
