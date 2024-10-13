@@ -7,11 +7,6 @@ Este projeto simula o ambiente de uma corrida de Fórmula 1, com foco na criaç�
 > **Colaboração:** Not found  
 > **Status:** <span> Concluído </span> ✔️
 
-<div align="center">
-  <p> 👀 Prévia </p>
-  <img src="./assets/imagens/previa-project.png" alt="Prévia do projeto">
-</div>
-
 ## 📜 Índice
 
 - [Descrição](#-descrição-do-projeto)
