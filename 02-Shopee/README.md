@@ -7,11 +7,6 @@ Este projeto é uma aplicação de carrinho de compras que permite adicionar, ca
 > **Colaboração:** Not found  
 > **Status:** <span> Concluído </span> ✔️
 
-<div align="center">
-  <p> 👀 Prévia </p>
-  <img src="./assets/imagens/previa-project.png" alt="Prévia do projeto">
-</div>
-
 ## 📜 Índice
 
 - [Descrição](#-descrição-do-projeto)
@@ -24,6 +19,7 @@ Este projeto é uma aplicação de carrinho de compras que permite adicionar, ca
 - [Contribuição](#-contribuição)
 - [Informações Adicionais](#-informações-adicionais)
 - [Licença](#-licença)
+- [Conclusão](#-conclusão)
 
 ## ✅ Conceitos Aprendidos 
 

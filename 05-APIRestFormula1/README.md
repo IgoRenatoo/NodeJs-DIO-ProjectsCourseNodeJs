@@ -17,9 +17,9 @@ Este projeto simula o ambiente de uma corrida de Fórmula 1, com foco na criaç�
 - [Funcionalidades](#-funcionalidades)
 - [Pendências](#-pendências)
 - [Contribuição](#-contribuição)
-- [Conclusão](#-conclusão)
 - [Informações Adicionais](#-informações-adicionais)
 - [Licença](#-licença)
+- [Conclusão](#-conclusão)
 
 ## ✅ Conceitos Aprendidos
 

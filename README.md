@@ -17,8 +17,6 @@ Este curso é uma imersão completa no `Desenvolvimento com Node.js`, abordando 
 - [Descrição](#-descrição-do-projeto)
 - [Conceitos Aprendidos](#-conceitos-aprendidos)
 - [Tecnologias Utilizadas](#--tecnologias-utilizadas)
-- [Instalação](#-instalação)
-- [Uso](#-uso)
 - [Projetos Práticos](#-projetos-práticos)
 - [Conteúdo do Curso](#-conteúdo-do-curso)
 - [Informações Adicionais](#-informações-adicionais)
@@ -40,30 +38,7 @@ Este curso é uma imersão completa no `Desenvolvimento com Node.js`, abordando 
 ![image](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![image](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white)
 
-## ⚙ Instalação
-
-Para começar a usar este projeto, siga as etapas abaixo:
-
-1. Faça um fork do repositório:
-   <pre>git fork https://github.com/IgoRenatoo/NodeJs-DIO-ProjectsCourseNodeJs.git</pre>
-
-2. Clone o seu fork para sua máquina:
-   <pre>git clone https://github.com/IgoRenatoo/NodeJs-DIO-ProjectsCourseNodeJs.git</pre>
-
-3. Acesse o diretório do projeto:
-   <pre>cd NodeJs-DIO-ProjectsCourseNodeJs</pre>
-
-4. Instale as dependências:
-   <pre>npm install</pre>
-
-5. Execute o projeto:
-   <pre>Acesse a pasta do projeto desejado e dê o comando `npm run dev`</pre>
-
-## 🚀 Uso 
-
-Para usar o projeto, acesse a pasta do projeto desejado e dê o comando `npm run dev` em seu terminal. Você poderá interagir com a API através do Postman ou de qualquer cliente HTTP.
-
-## 🛠 Projetos Práticos
+## 🏗 Projetos Práticos
 
 Durante o curso, foram realizados vários projetos práticos para aplicar o conhecimento adquirido:
 

@@ -23,9 +23,9 @@ Este projeto visa criar uma lógica de um jogo de vídeo game para simular corri
 - [Regras e Mecânicas](#-regras-e-mecânicas)
 - [Pendências](#-pendências)
 - [Contribuição](#-contribuição)
-- [Conclusão](#-conclusão)
 - [Informações Adicionais](#-informações-adicionais)
 - [Licença](#-licença)
+- [Conclusão](#-conclusão)
 
 ## ✅ Conceitos Aprendidos 
 

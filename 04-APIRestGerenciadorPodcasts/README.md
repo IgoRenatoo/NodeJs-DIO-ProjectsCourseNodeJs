@@ -17,9 +17,9 @@ Este projeto é uma simulação de um servidor HTTP simples, que gerencia e exib
 - [Funcionalidades](#-funcionalidades)
 - [Pendências](#-pendências)
 - [Contribuição](#-contribuição)
-- [Conclusão](#-conclusão)
 - [Informações Adicionais](#-informações-adicionais)
 - [Licença](#-licença)
+- [Conclusão](#-conclusão)
 
 ## ✅ Conceitos Aprendidos
 
